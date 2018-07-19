@@ -34,16 +34,26 @@ public class Application {
 		}
 		
 		if(  age > 13 ) {
+			if (age < 20) {
 			System.out.println("Teenager");
-		}else {
+		}}else {
 			System.out.println("Not Teenager");
 		}
 		
 		if(age >= 20) {
+			if ( age < 60) {
 			System.out.println("Adult");
-		}else {
+			}}else {
 			System.out.println("Not Adult");
 		}
+		
+		if(age >= 60) {
+			
+			System.out.println("Senior");
+			}else {
+			System.out.println("Not Senior");
+		}
+		
 	}
 
 	
