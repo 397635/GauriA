@@ -1,0 +1,21 @@
+
+public class Car {
+	
+	public String name;
+	public int horsepower;
+	
+	void start (){
+		System.out.println("\n\nStarting the car:  " + name + " which has -- " + horsepower + " horsepower");
+	
+	}
+	
+	void stop (){
+		System.out.print("\nStopping the car: " + name);
+		
+	}
+	
+	
+	
+	
+
+}
